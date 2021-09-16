@@ -11,6 +11,6 @@ namespace CarParkRateCommon
 
     public static class ErrorMessages
     {
-        public const string INVALID_ENTRY = "Date is invalid";
+        public const string INVALID_ENTRY = "Date is invalid.Please use the format mm/dd/yyyy format.";
     }
 }

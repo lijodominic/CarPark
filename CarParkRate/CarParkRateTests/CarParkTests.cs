@@ -42,6 +42,7 @@ namespace CarParkRateTests
         [DataRow("05:50")]
         [DataRow("05:50:06")]
         [DataRow("05:50 AM")]
+        [DataRow("16/09/2021 09:50 AM")]
         [DataTestMethod]
         public void ValidateValidInput(string strEntry)
         {

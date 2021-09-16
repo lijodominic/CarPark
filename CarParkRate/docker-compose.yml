@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  carparkrateapi:
+    image: ${DOCKER_REGISTRY-}carparkrateapi
+    build:
+      context: .
+      dockerfile: CarParkRateApi/Dockerfile
