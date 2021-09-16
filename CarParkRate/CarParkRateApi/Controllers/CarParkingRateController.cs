@@ -32,7 +32,7 @@ namespace CarParkRateApi.Controllers
             {
                 var rate = _rateService.GetParkingRate(carEntryExit.EntryDate, carEntryExit.ExitDate);
 
-                return $"Rate: {rate.Name}, Due: {rate.TotalCost}";
+                return $"Name: {rate.Name}, Due: {rate.TotalCost}";
             }
             catch (Exception ex)
             {

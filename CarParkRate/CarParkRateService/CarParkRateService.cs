@@ -17,6 +17,13 @@ namespace CarParkRateService
         {
             _logger = logger;
         }
+
+        /// <summary>
+        /// interface to calculate the rate based on different rates and get the lowest applicable
+        /// </summary>
+        /// <param name="strEntryDateTime"></param>
+        /// <param name="strExitDateTime"></param>
+        /// <returns></returns>
         public CarParkRateDTO GetParkingRate(string strEntryDateTime, string strExitDateTime)
         {
             if (!strEntryDateTime.IsValidDateTime())
@@ -38,6 +45,7 @@ namespace CarParkRateService
                 throw new InvalidDate();
             }
 
+            // get all class inherited from ParkingRate
             System.Type[] possibleRates = Util.GetAllEntities();
 
             ConcurrentBag<CarParkRateDTO> carParkRates = new ConcurrentBag<CarParkRateDTO>();
