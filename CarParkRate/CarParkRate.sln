@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkRateTests", "CarParkRateTests\CarParkRateTests.csproj", "{179B526D-041C-4F24-8E7B-1F8D91922269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkRateApi", "CarParkRateApi\CarParkRateApi.csproj", "{129E93BA-D82B-49C3-A38C-A7753F2199EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkRateService", "CarParkRateService\CarParkRateService.csproj", "{FFF23DDB-5DC3-411F-B0F0-8F37144A8EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkRateInterface", "CarParkRateInterface\CarParkRateInterface.csproj", "{9E71B999-DF28-43C4-A554-EDF4FD25AF7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkRateCommon", "CarParkRateCommon\CarParkRateCommon.csproj", "{88764F0D-5E34-4CCD-948A-AF2E41719B9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkRateCore", "CarParkRateCore\CarParkRateCore.csproj", "{43A99CFD-9E34-40B9-AD44-02F7CB59A991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{179B526D-041C-4F24-8E7B-1F8D91922269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179B526D-041C-4F24-8E7B-1F8D91922269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179B526D-041C-4F24-8E7B-1F8D91922269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179B526D-041C-4F24-8E7B-1F8D91922269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129E93BA-D82B-49C3-A38C-A7753F2199EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129E93BA-D82B-49C3-A38C-A7753F2199EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129E93BA-D82B-49C3-A38C-A7753F2199EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129E93BA-D82B-49C3-A38C-A7753F2199EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF23DDB-5DC3-411F-B0F0-8F37144A8EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF23DDB-5DC3-411F-B0F0-8F37144A8EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF23DDB-5DC3-411F-B0F0-8F37144A8EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF23DDB-5DC3-411F-B0F0-8F37144A8EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E71B999-DF28-43C4-A554-EDF4FD25AF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E71B999-DF28-43C4-A554-EDF4FD25AF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E71B999-DF28-43C4-A554-EDF4FD25AF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E71B999-DF28-43C4-A554-EDF4FD25AF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88764F0D-5E34-4CCD-948A-AF2E41719B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88764F0D-5E34-4CCD-948A-AF2E41719B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88764F0D-5E34-4CCD-948A-AF2E41719B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88764F0D-5E34-4CCD-948A-AF2E41719B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A99CFD-9E34-40B9-AD44-02F7CB59A991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A99CFD-9E34-40B9-AD44-02F7CB59A991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A99CFD-9E34-40B9-AD44-02F7CB59A991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A99CFD-9E34-40B9-AD44-02F7CB59A991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E62E8B64-58B9-4241-94AC-05C1D25E12DC}
+	EndGlobalSection
+EndGlobal
